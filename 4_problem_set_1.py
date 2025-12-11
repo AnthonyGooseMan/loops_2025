@@ -33,7 +33,16 @@ print("The sum of numbers from 1 to", n, "is:", total)
 
 # Ask the user for a string. Count and print how many **vowels (a, e, i, o, u)** are in the string.
 
+for i in range(10):
+    print(i)
+def factorial(n):
 
+    factorial = 1
+    for i in range(n):
+        factorial*=i+1
+    return factorial
+
+print(factorial(5))
 # ### **Problem 5: Print Even Numbers**
 
 # Ask the user for a number **n**, then print all **even numbers** from 2 up to n.
